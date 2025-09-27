@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/animal")
 public class AnimalController {
+  
+  //snimalcontoller
 
 	@GetMapping("")
 	public ResponseEntity<String> getAnimals(){
