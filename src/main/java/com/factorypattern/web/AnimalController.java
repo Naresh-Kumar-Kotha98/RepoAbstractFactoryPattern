@@ -1,4 +1,4 @@
-package com.animalfactory.web;
+package com.factorypattern.web;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
