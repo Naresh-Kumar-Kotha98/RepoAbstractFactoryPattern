@@ -6,7 +6,7 @@ public class WesternProduct implements Product {
 
   @Override
   public void describeProduct() {
-    System.out.println("Product with Western specifications and branding.");
+    System.out.println("Product with Western specifications and branding..");
   }
 
 }

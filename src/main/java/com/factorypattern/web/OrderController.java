@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/animal")
-public class AnimalController {
+@RequestMapping(value = "/order")
+public class OrderController {
   
-  //snimalcontoller
 
 	@GetMapping("")
 	public ResponseEntity<String> getAnimals(){
-		return new ResponseEntity<String>("got anmials", HttpStatus.OK);
+		return new ResponseEntity<String>("got orders", HttpStatus.OK);
 	}
 }

@@ -1,4 +1,4 @@
-package com.factorypattern.factoryUtil;
+package com.factorypattern.process;
 
 import com.factorypattern.factory.Payment;
 import com.factorypattern.factory.impl.CreditCardPayment;

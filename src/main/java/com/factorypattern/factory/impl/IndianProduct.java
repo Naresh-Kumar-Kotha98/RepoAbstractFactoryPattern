@@ -6,7 +6,7 @@ public class IndianProduct implements Product {
 
   @Override
   public void describeProduct() {
-    System.out.println("Product with Indian specifications and branding.");
+    System.out.println("Product with Indian specifications and branding..");
   }
 
 }
